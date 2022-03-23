@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
         var mainViewBinding = ActivityMainBinding.inflate(layoutInflater)
 
         setContentView(mainViewBinding.root)
-
         val popularMovieFr = PopularMovieFr()
         val popularPeopleFr = PopularPeopleFr()
         val upcomingMovieFr = UpcomingMovieFr()

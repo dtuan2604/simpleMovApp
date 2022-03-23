@@ -5,13 +5,13 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface TmdbEndpoints {
-    @GET("/movie/popular")
+    @GET("3/movie/popular")
     fun getPopMovies(@Query("api_key") key: String): Call<Movies>
 
-    @GET("/movie/upcoming")
+    @GET("3/movie/upcoming")
     fun getUpcomingMovies(@Query("api_key") key: String): Call<Movies>
 
-    @GET("/person/popular")
+    @GET("3/person/popular")
     fun getPopPeople(@Query("api_key") key: String): Call<People>
 
 }
