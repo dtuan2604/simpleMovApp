@@ -26,6 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="10dp"
         android:scaleY="4"
+        android:scaleX="4"
         android:indeterminateBehavior="repeat"
         android:indeterminate="true"/>
 

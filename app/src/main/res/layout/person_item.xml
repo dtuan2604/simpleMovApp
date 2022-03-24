@@ -14,41 +14,33 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/ivMoviePhoto"
+                android:id="@+id/ivPeoplePhoto"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_centerHorizontal="true"
-                android:contentDescription="@string/movie_image"/>
+                android:contentDescription="@string/people_image"/>
 
             <TextView
-                android:id="@+id/tvMovieTitle"
+                android:id="@+id/tvName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/ivMoviePhoto"
+                android:layout_below="@+id/ivPeoplePhoto"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginEnd="5dp"
                 android:layout_marginBottom="5dp"
-                android:text="@string/title"
+                android:text="@string/name"
                 android:textSize="19sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tvMovieOverview"
-                android:layout_below="@+id/tvMovieTitle"
+                android:id="@+id/tvPopularity"
+                android:layout_below="@+id/tvName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="@string/overview"/>
+                android:text="@string/popularity"/>
 
-            <TextView
-                android:id="@+id/tvMovieRating"
-                android:layout_below="@+id/tvMovieOverview"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="15sp"
-                android:layout_margin="5dp"
-                android:text="@string/rating"/>
 
 
         </RelativeLayout>

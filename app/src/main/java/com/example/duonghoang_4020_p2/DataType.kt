@@ -20,4 +20,5 @@ data class PeopleResult(
     val profile_path: String,
     val id: Int,
     val name: String,
+    val popularity: Double
 )

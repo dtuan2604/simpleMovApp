@@ -29,7 +29,7 @@ class PopularMovieFr: Fragment() {
         val rvMovies = view?.findViewById<RecyclerView>(R.id.rvMovies)
 
         val request = ServiceBuilder.buildService(TmdbEndpoints::class.java)
-        val call = request.getPopMovies("b3bb440363cfdf76de1550568f883387")
+        val call = request.getPopMovies("0a7d3e2320c9bc4040bdec2b342e56dd")
 
         call.enqueue(object: retrofit2.Callback<Movies> {
             override fun onResponse(call: Call<Movies>, response: Response<Movies>) {
@@ -46,8 +46,6 @@ class PopularMovieFr: Fragment() {
             override fun onFailure(call: Call<Movies>, t: Throwable) {
                 Toast.makeText(context, "${t.message}", Toast.LENGTH_SHORT).show()
             }
-
-        }
-        )
+        })
     }
 }

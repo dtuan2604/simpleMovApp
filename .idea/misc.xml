@@ -5,9 +5,11 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_pop_movie_background.xml" value="0.201" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.16818642350557245" />
-        <entry key="app/src/main/res/layout/movie_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/movie_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/person_item.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/pop_movie_fragment.xml" value="0.25" />
         <entry key="app/src/main/res/layout/pop_people_fragment.xml" value="0.17552083333333332" />
+        <entry key="app/src/main/res/layout/upcoming_mov_fragment.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.3405128205128205" />
       </map>
     </option>
