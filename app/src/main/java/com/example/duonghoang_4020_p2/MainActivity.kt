@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        var mainViewBinding = ActivityMainBinding.inflate(layoutInflater)
+        val mainViewBinding = ActivityMainBinding.inflate(layoutInflater)
 
         setContentView(mainViewBinding.root)
         val popularMovieFr = PopularMovieFr()
